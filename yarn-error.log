@@ -1,0 +1,38 @@
+Arguments: 
+  /home/aka/.nvm/versions/node/v10.14.2/bin/node /usr/share/yarn/bin/yarn.js add --dev jest
+
+PATH: 
+  /media/aka/Data/Program/Master/Linux/Netkit/netkit/bin:/home/aka/.local/share/umake/bin:/media/aka/Data/Program/Master/Linux/Netkit/netkit/bin:/home/aka/.nvm/versions/node/v10.14.2/bin:/home/aka/.local/share/umake/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/opt/mssql-tools/bin:/home/aka/.config/composer/vendor/bin:/media/aka/Data/Program/Master/Linux/Android/android-sdk-linux/tools:/media/aka/Data/Program/Master/Linux/Android/android-sdk-linux/platform-tools:/opt/mssql-tools/bin:/home/aka/.config/composer/vendor/bin:/media/aka/Data/Program/Master/Linux/Android/android-sdk-linux/tools:/media/aka/Data/Program/Master/Linux/Android/android-sdk-linux/platform-tools
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.24.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1117:14)
+
+npm manifest: 
+  {
+    "name": "jest-sample",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
